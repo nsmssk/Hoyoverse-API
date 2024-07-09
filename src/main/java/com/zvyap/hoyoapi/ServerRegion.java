@@ -24,7 +24,7 @@ public enum ServerRegion {
             GameType.HONKAI_IMPACT_3RD, "eur01",
             GameType.HONKAI_STAR_RAIL, "prod_official_eur",
             GameType.TEARS_OF_THEMIS, "glb_prod_wd01",
-            GameType.ZENLESS_ZONE_ZERO, Utils.UNKNOWN
+            GameType.ZENLESS_ZONE_ZERO, "prod_gf_eu"
     )),
     AMERICA(Map.of(
             GameType.GENSHIN_IMPACT, "os_usa",
