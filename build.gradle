@@ -63,7 +63,7 @@ afterEvaluate {
         publications {
             mavenJava(MavenPublication) {
                 from components.java
-                groupId 'com.github.zvyap'
+                groupId 'com.github.nsmssk'
                 artifactId "Hoyoverse-API"
                 version project.version
             }
