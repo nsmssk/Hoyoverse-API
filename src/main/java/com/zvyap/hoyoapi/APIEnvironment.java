@@ -89,7 +89,16 @@ public enum APIEnvironment {
                     .dailyCheckInApiEndpoint("https://api-takumi.mihoyo.com/event/luna")
                     .dailyCheckInActId("e202202251749321")
                     .gameBiz("nxx_cn")
-                    .build());
+                    .build(),
+             GameAPIConstant.builder()
+                    .gameType(GameType.ZENLESS_ZONE_ZERO)
+                    .name("Zenless Zone Zero")
+                    .apiUrl("https://sg-act-nap-api.hoyolab.com")
+                    .dailyCheckInApiEndpoint("https://sg-act-nap-api.hoyolab.com/event/luna/os")
+                    .dailyCheckInActId("e202406031448091")
+                    .gameBiz("nap_global")
+                    .build()//filter
+         );
 
     private final AccountAPIConstant accountAPIConstant;
     public final GameAPIConstant GENSHIN;
