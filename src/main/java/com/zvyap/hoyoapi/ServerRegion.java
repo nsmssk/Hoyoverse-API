@@ -16,47 +16,65 @@ public enum ServerRegion {
             GameType.GENSHIN_IMPACT, "os_asia",
             GameType.HONKAI_IMPACT_3RD, "overseas01",
             GameType.HONKAI_STAR_RAIL, "prod_official_asia",
-            GameType.TEARS_OF_THEMIS, "glb_prod_wd01")),
+            GameType.TEARS_OF_THEMIS, "glb_prod_wd01",
+            GameType.ZENLESS_ZONE_ZERO, "prod_gf_jp"
+    )),
     EUROPE(Map.of(
             GameType.GENSHIN_IMPACT, "os_eur",
             GameType.HONKAI_IMPACT_3RD, "eur01",
             GameType.HONKAI_STAR_RAIL, "prod_official_eur",
-            GameType.TEARS_OF_THEMIS, "glb_prod_wd01")),
+            GameType.TEARS_OF_THEMIS, "glb_prod_wd01",
+            GameType.ZENLESS_ZONE_ZERO, Utils.UNKNOWN
+    )),
     AMERICA(Map.of(
             GameType.GENSHIN_IMPACT, "os_usa",
             GameType.HONKAI_IMPACT_3RD, "usa01",
             GameType.HONKAI_STAR_RAIL, "prod_official_usa",
-            GameType.TEARS_OF_THEMIS, "glb_prod_wd01")),
+            GameType.TEARS_OF_THEMIS, "glb_prod_wd01",
+            GameType.ZENLESS_ZONE_ZERO, "prod_gf_us"
+    )),
     TW_HK_MO(Map.of(
             GameType.GENSHIN_IMPACT, "os_cht",
             GameType.HONKAI_IMPACT_3RD, "asia01",
             GameType.HONKAI_STAR_RAIL, "prod_official_cht",
-            GameType.TEARS_OF_THEMIS, "glb_prod_wd01")),
+            GameType.TEARS_OF_THEMIS, "glb_prod_wd01",
+            GameType.ZENLESS_ZONE_ZERO, Utils.UNKNOWN
+    )),
     KOREA(Map.of(
             GameType.GENSHIN_IMPACT, Utils.UNKNOWN,
             GameType.HONKAI_IMPACT_3RD, "kr01",
             GameType.HONKAI_STAR_RAIL, Utils.UNKNOWN,
-            GameType.TEARS_OF_THEMIS, Utils.UNKNOWN)),
+            GameType.TEARS_OF_THEMIS, Utils.UNKNOWN,
+            GameType.ZENLESS_ZONE_ZERO, Utils.UNKNOWN
+    )),
     JAPAN(Map.of(
             GameType.GENSHIN_IMPACT, Utils.UNKNOWN,
             GameType.HONKAI_IMPACT_3RD, "jp01",
             GameType.HONKAI_STAR_RAIL, Utils.UNKNOWN,
-            GameType.TEARS_OF_THEMIS, Utils.UNKNOWN)),
+            GameType.TEARS_OF_THEMIS, Utils.UNKNOWN,
+            GameType.ZENLESS_ZONE_ZERO, Utils.UNKNOWN
+    )),
     CHINA_OFFICIAL(Map.of(
             GameType.GENSHIN_IMPACT, "cn_gf01", //SKY_ISLAND
             GameType.HONKAI_IMPACT_3RD, "ios01,android01,pc01",
             GameType.HONKAI_STAR_RAIL, "prod_gf_cn", //pre_090_cn,pre_100_cn - what is these server
-            GameType.TEARS_OF_THEMIS, "cn_prod_gf01")),
+            GameType.TEARS_OF_THEMIS, "cn_prod_gf01",
+            GameType.ZENLESS_ZONE_ZERO, Utils.UNKNOWN
+    )),
     CHINA_MIX(Map.of(
             GameType.GENSHIN_IMPACT, "cn_qd01", //SKY_TREE
             GameType.HONKAI_IMPACT_3RD, "hun01,hun02,yyb01",
             GameType.HONKAI_STAR_RAIL, "prod_qd_cn",
-            GameType.TEARS_OF_THEMIS, "cn_prod_mix01")),
+            GameType.TEARS_OF_THEMIS, "cn_prod_mix01",
+            GameType.ZENLESS_ZONE_ZERO, Utils.UNKNOWN
+    )),
     BILIBILI(Map.of(
             GameType.GENSHIN_IMPACT, "null",
             GameType.HONKAI_IMPACT_3RD, "bb01",
             GameType.HONKAI_STAR_RAIL, Utils.UNKNOWN,
-            GameType.TEARS_OF_THEMIS, "cn_prod_bb01"));
+            GameType.TEARS_OF_THEMIS, "cn_prod_bb01",
+            GameType.ZENLESS_ZONE_ZERO, Utils.UNKNOWN
+    ));
 
     private Map<GameType, String> region;
 
