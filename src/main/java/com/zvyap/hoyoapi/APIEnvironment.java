@@ -98,7 +98,7 @@ public enum APIEnvironment {
     public final GameAPIConstant TEARS_OF_THEMIS;
     public final GameAPIConstant ZENLESS_ZONE_ZERO;
 
-    APIEnvironment(AccountAPIConstant accountAPIConstant, GameAPIConstant GENSHIN, GameAPIConstant HONKAI_IMPACT_3RD, GameAPIConstant HONKAI_STAR_RAIL, GameAPIConstant TEARS_OF_THEMIS) {
+    APIEnvironment(AccountAPIConstant accountAPIConstant, GameAPIConstant GENSHIN, GameAPIConstant HONKAI_IMPACT_3RD, GameAPIConstant HONKAI_STAR_RAIL, GameAPIConstant TEARS_OF_THEMIS, GameAPIConstant ZENLESS_ZONE_ZERO) {
         this.accountAPIConstant = accountAPIConstant;
         this.GENSHIN = GENSHIN;
         this.HONKAI_IMPACT_3RD = HONKAI_IMPACT_3RD;
@@ -112,7 +112,7 @@ public enum APIEnvironment {
     }
 
     public GameAPIConstant[] getAllAPIConstant() {
-        return new GameAPIConstant[] {GENSHIN, HONKAI_IMPACT_3RD, HONKAI_STAR_RAIL, TEARS_OF_THEMIS,ZENLESS_ZONE_ZERO};
+        return new GameAPIConstant[] {GENSHIN, HONKAI_IMPACT_3RD, HONKAI_STAR_RAIL, TEARS_OF_THEMIS, ZENLESS_ZONE_ZERO};
     }
 
     public GameAPIConstant getAPIConstant(GameType gameType) {
