@@ -134,7 +134,7 @@ public enum APIEnvironment {
                 return HONKAI_STAR_RAIL;
             case TEARS_OF_THEMIS:
                 return TEARS_OF_THEMIS;
-             case ZENLESS_ZONE_ZERO:
+            case ZENLESS_ZONE_ZERO:
                 return ZENLESS_ZONE_ZERO;
             default:
                 throw new HoyoverseAPIMissingException("GameAPIConstant");
