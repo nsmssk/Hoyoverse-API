@@ -42,6 +42,14 @@ public enum APIEnvironment {
                     .dailyCheckInActId("e202202281857121")
                     .gameBiz("nxx_global")
                     .build()),
+             GameAPIConstant.builder()
+                    .gameType(GameType.ZENLESS_ZONE_ZERO)
+                    .name("Zenless Zone Zero")
+                    .apiUrl("https://sg-act-nap-api.hoyolab.com")
+                    .dailyCheckInApiEndpoint("https://sg-act-nap-api.hoyolab.com/event/luna/zzz/os")
+                    .dailyCheckInActId("e202406031448091")
+                    .gameBiz("nap_global")
+                    .build()),
     //Zenless Zone Zero id - 8
 
     CHINA(AccountAPIConstant.builder()
